@@ -23,6 +23,4 @@ int main()
 	triangle_area = (a * a) * (sqrt3 / 4);
 	cout << "The area and circumference of a triangle with side a are: " << triangle_area << triangle_circ << endl;
 	return 0;
-	
 }
-
