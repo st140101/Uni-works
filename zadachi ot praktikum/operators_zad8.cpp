@@ -9,17 +9,17 @@ int main()
 	double total = 0;
 	
 
-	cout << "Enter how many apples you'd like to buy: ";
+	cout << "Enter how many apples you'd like to buy: \n";
 	cin >> apples_count; 
 	cout << " for the price of: ";
 	cin >> apples_price;
 
-	cout << "Enter how many oranges you'd like to buy: ";
+	cout << "Enter how many oranges you'd like to buy: \n";
 	cin >> oranges_count; 
 	cout << " for the price of: "; 
 	cin >> oranges_price;
 	
-	cout << "Enter how many bananas you'd like to buy: "; 
+	cout << "Enter how many bananas you'd like to buy: \n"; 
 	cin >> bananas_count; 
 	cout << " for the price of: ";
 	cin >> bananas_price;
