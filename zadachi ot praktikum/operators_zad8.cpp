@@ -25,14 +25,16 @@ int main()
 	cin >> bananas_price;
 	
 
-	apples_sum = apples_count*apples_price;
-	oranges_sum = oranges_count*oranges_price;
-	bananas_sum = bananas_count*bananas_price;
+	apples_sum = apples_count * apples_price;
+	oranges_sum = oranges_count * oranges_price;
+	bananas_sum = bananas_count * bananas_price;
 	
 	total = apples_sum + oranges_sum + bananas_sum;
 	
 
-	cout << "You've bought " << apples_count << " apples for " << apples_sum << ", " << oranges_count << " oranges for " << oranges_sum << " and " << bananas_count << " bananas for " << bananas_sum << endl;
+	cout << "You've bought " << apples_count << " apples for " << apples_sum << endl;
+	cout << "You've bought " << oranges_count << " oranges for " << oranges_sum << endl;
+	cout << "You've bought " << bananas_count << " bananas for " << bananas_sum << endl;
 	cout << "Your total is: " << total;	
 	
 	return 0;
