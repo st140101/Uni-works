@@ -21,6 +21,6 @@ int main()
 	cout << "The lenght of a circle with radius a is: " << circle << endl;
 	triangle_circ = 3 * a;
 	triangle_area = (a * a) * (sqrt3 / 4);
-	cout << "The area and circumference of a triangle with side a are: " << triangle_area << triangle_circ << endl;
+	cout << "The area and circumference of a triangle with side a are: " << triangle_area << " and " << triangle_circ << endl;
 	return 0;
 }
