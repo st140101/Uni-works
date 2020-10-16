@@ -5,7 +5,7 @@ int main()
 {
 	int a = 0;
 	int area = 0;
-	int circ = 0;
+	int circ = 0; //circ here stands for circumference
 	float pi = 3.14;
 	float sqrt3 = 1.73;
 	float circle = 0;
@@ -23,6 +23,4 @@ int main()
 	triangle_area = (a * a) * (sqrt3 / 4);
 	cout << "The area and circumference of a triangle with side a are: " << triangle_area << triangle_circ << endl;
 	return 0;
-	
 }
-
