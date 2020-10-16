@@ -5,7 +5,7 @@ int main()
 {
 	int a = 0;
 	int area = 0;
-	int circ = 0;
+	int circ = 0; //circ here stands for circumference
 	float pi = 3.14;
 	float sqrt3 = 1.73;
 	float circle = 0;
