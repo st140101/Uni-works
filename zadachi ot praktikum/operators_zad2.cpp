@@ -6,7 +6,7 @@ int main()
 	int a = 0, square_area = 0, square_circumference = 0, triangle_circumference = 0;
 	float pi = 3.14, sqrt3 = 1.73, circle = 0, triangle_area = 0;
 	
-	cout << "Enter a number for the side a: ";
+	cout << "Enter a number for the side a: \n";
 	cin >> a;
 	
 	square_area = a * a;
