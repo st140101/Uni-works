@@ -7,7 +7,6 @@ int main()
 	double apples_price, oranges_price, bananas_price = 0;
 	double apples_sum, oranges_sum, bananas_sum = 0;
 	double total = 0;
-	
 
 	cout << "Enter how many apples you'd like to buy: \n";
 	cin >> apples_count; 
@@ -23,14 +22,12 @@ int main()
 	cin >> bananas_count; 
 	cout << " for the price of: ";
 	cin >> bananas_price;
-	
 
 	apples_sum = apples_count * apples_price;
 	oranges_sum = oranges_count * oranges_price;
 	bananas_sum = bananas_count * bananas_price;
 	
-	total = apples_sum + oranges_sum + bananas_sum;
-	
+	total = apples_sum + oranges_sum + bananas_sum;	
 
 	cout << "You've bought " << apples_count << " apples for " << apples_sum << endl;
 	cout << "You've bought " << oranges_count << " oranges for " << oranges_sum << endl;
