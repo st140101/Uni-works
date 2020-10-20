@@ -21,12 +21,14 @@ int main()
 	discriminant = b * b - 4 * a * c;
         
 	int x1, x2 = 0; // x1 and x2 refer to the roots of the equation
-	if (discriminant == 0) {
+	if (discriminant == 0)
+	{
 		x1 = (-b) / (2 * a);
 		
 		cout << "The quadratic equation" << a << "x^2+" << b << "x+" << c << " has one real root " << x1 << endl;
 	}
-	else {
+	else
+	{
 		x1 = (-b + sqrt(discriminant)) / (2 * a );
 		x2 = (-b - sqrt(discriminant)) / (2 * a);
 
