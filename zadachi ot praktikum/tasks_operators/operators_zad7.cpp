@@ -11,7 +11,8 @@ int main()
 	cout << "Enter your second number: \n";
 	cin >> number_two;
 
-	if (number_one != 0 && number_two != 0) {
+	if (number_one != 0 && number_two != 0)
+	{
 		cout << "Your numbers are " << number_one << " and " << number_two << endl;
 		
 		temp_number = number_one;
@@ -20,7 +21,8 @@ int main()
 
 		cout << "Your reversed numbers are " << number_one << " and " << number_two << endl;
 	}
-	else {
+	else
+	{
 		cout << "Your numbers must not be 0!";
 	}
 	
