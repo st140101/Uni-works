@@ -9,10 +9,12 @@ int main()
 	cout << "Enter your number: \n";
 	cin >> number;
 
-	if ((number & 1) == 1) {
+	if ((number & 1) == 1)
+	{
 		cout << "Your number is uneven." << endl;
 	}
-	else {
+	else
+	{
 		cout << "Your number is even." << endl;
 	}
 	
