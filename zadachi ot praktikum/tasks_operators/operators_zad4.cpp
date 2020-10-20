@@ -3,9 +3,7 @@ using namespace std;
 
 int main()
 {
-	int a = 0;
-	int b = 0;
-	int power_three = 0;
+	int a, b, power_three = 0;
 	
 	cout << "Enter number one: \n";	cin >> a;
 	cout << "Enter number two: \n";	cin >> b;
