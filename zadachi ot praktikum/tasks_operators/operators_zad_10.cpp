@@ -6,7 +6,6 @@ int main()
 {
 	int number_one, number_two = 0;
 
-
 	cout << "Enter your first number : \n";
 	cin >> number_one;
 
