@@ -12,7 +12,6 @@ int main()
 	if ((number & 1) == 1) {
 		cout << "Your number is uneven." << endl;
 	}
-
 	else {
 		cout << "Your number is even." << endl;
 	}
