@@ -6,7 +6,6 @@ int main()
 {
 	int number = 0;
 
-
 	cout << "Enter your number in dec: \n";
 	cin >> number;
 
