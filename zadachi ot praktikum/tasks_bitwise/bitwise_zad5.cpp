@@ -4,21 +4,21 @@ using namespace std;
 int main()
 {
 	const int encryption_key = 51223;
-	
+
 	int value = 0;
 	cout << "Enter value: \n";
 	cin >> value;
-    
+
 	int encrypted = value ^ encryption_key;
 	cout << "Your encrypted value is: " << encrypted << endl;
-	
+
 	int user_key;
 	cout << "Enter key: \n" << endl;
 	cin >> user_key;
 
-	int decrypted = value ^ encryption_key;
-	
-	if (user_key == encryption_key)
+	int decrypted = encrypted ^ user_key;
+
+	if (decrypted == value)
 	{
 		cout << "Your decrypted value was: " << decrypted << endl;
 	}
@@ -26,6 +26,6 @@ int main()
 	{
 		cout << "The key you entered is incorrect." << endl;
 	}
-	
+
 	return 0;
 }
