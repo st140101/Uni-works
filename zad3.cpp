@@ -64,7 +64,7 @@ bool is_pally(const vector<int> v) {
 }
 
 void checkPalin(vector<int> v) {
-   
+
     if (v.size() < 3) {
         return;
     }
@@ -75,11 +75,11 @@ void checkPalin(vector<int> v) {
             cout << v[i] << " ";
         }
         cout << endl;
-        
+
         if (searchVec(v) == false) {
             combined.push_back(v);
         }
-        
+
     }
     vector<int> left_side = v, right_side = v;
 
@@ -101,7 +101,7 @@ int main() {
 
         int temp = digitsInput();
         enteredDigits.push_back(temp);
-    } 
+    }
     checkPalin(enteredDigits);
     for (int i = 0; i < combined.size(); ++i) {
         for (int j = 0; j < combined[i].size(); ++j) {
@@ -110,7 +110,7 @@ int main() {
         }
     }
     cout << "\npalindrome count: ";
-   
+
     cout << "* " << combined.size() << "*" << endl;
     return 0;
 }
