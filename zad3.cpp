@@ -87,7 +87,9 @@ void checkPalin(vector<int> v) {
     right_side.pop_back();
 
 
-    checkPalin(left_side) + checkPalin(right_side) + is_pally(v);
+    checkPalin(left_side);
+    checkPalin(right_side);
+    is_pally(v);
 }
 
 int main() {
