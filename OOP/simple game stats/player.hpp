@@ -28,11 +28,11 @@ public:
 	player(Race); // constructor for creating a new player
 	player(Race, std::string); //create player with name
 	//getters:
-	Race getRace(); 
-	int getExp();
-	int getLevel();
-	int getHP();
-	std::string getName();
+	Race getRace() const; 
+	int getExp() const;
+	int getLevel() const;
+	int getHP() const;
+	std::string getName() const;
 	
 	//actions:
 	void takeDamage(unsigned int dmg);
