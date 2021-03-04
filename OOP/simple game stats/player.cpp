@@ -18,25 +18,24 @@ player::player(Race chosenRace, std::string chosenName) {
 	name = chosenName;
 }
 
-Race player::getRace() {
+Race player::getRace() const {
 	return playerRace;
 }
 
-int player::getExp() {
+int player::getExp() const {
 	return experience;
 }
 
-int player::getLevel() {
+int player::getLevel() const {
 	level += experience / 1000;
 	return level;
 }
 
-int player::getHP() {
+int player::getHP() const {
 	return HP;
 }
 
-std::string player::getName()
-{
+std::string player::getName() const {
 	return name;
 }
 
