@@ -12,9 +12,9 @@ public:
 	~Product(); //destructor
 	Product(const Product&); //copy
 
-	const char* getName();
-	double getPrice();
-	unsigned int getAmount();
+	const char* getName() const;
+	double getPrice() const;
+	unsigned int getAmount() const;
 
 	void setName(const char*);
 	void setPrice(const double);

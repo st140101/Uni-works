@@ -35,15 +35,15 @@ Product::Product(const Product& rhs) {
 	amount = rhs.amount;
 }
 
-const char* Product::getName() {
+const char* Product::getName() const {
 	return name;
 }
 
-double Product::getPrice() {
+double Product::getPrice() const {
 	return price;
 }
 
-unsigned int Product::getAmount() {
+unsigned int Product::getAmount() const {
 	return amount;
 }
 
